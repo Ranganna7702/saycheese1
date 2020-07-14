@@ -1,4 +1,4 @@
-var SayCheese = (function() {
+var SayCheese = function() {
 
     var SayCheese;
 
