@@ -1,15 +1,3 @@
-/*
- * Say Cheese!
- *
- * Minimal javascript library for integrating a webcam and snapshots into your app.
- *
- * Handles starting up the webcam and rendering the element, and also capturing shots
- * in a separate canvas element.
- *
- * Depends on video and canvas, and of course, getUserMedia. It's unlikely to work
- * on anything but the newest browsers.
- */
-
 var SayCheese = (function() {
 
     var SayCheese;
@@ -195,4 +183,5 @@ var SayCheese = (function() {
 
     return SayCheese;
 
-})();
+});
+
